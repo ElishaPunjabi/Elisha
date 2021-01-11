@@ -10,7 +10,6 @@ body{
     border-color:black;
     padding: 2px;
     border-radius:75%;
-    margin-top:300px;
 }
 #h1_1{
     font-size: 80px;
@@ -36,19 +35,48 @@ p{
 }
 .menu{
     list-style: none;
-    position:absolute;
+    position:fixed;
     top:10px;
-    right: 30ox;
-    cursor: pointer;
+    right: 30px;
+    cursor:pointer;
+    width: 100%;
+    margin-top:0px;
+    background-color:firebrick;
+    line-height:50px;
 }
 .links{
-    float:left;
+    display:inline;
     padding-top: 5px;
     padding-left: 9px;
     padding-right: 9px;
     padding-bottom: 5px;
-    font-size:30px;    
+    font-size:35px; 
+    background-color:firebrick;
+}
+.links a{
+    text-decoration: none;
+    color:black;
 }
 .links:hover{
     font-family: 'Redressed', cursive;
+    text-decoration: underline;
+    font-size:40px;
+}
+.title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+.article{
+    text-decoration: none;}
+#contact{
+    background: firebrick;
+}
+#contact iframe{
+   width:100%; 
+}
+.contact_1 h3{
+    display:inline;
+}
+.contact_1 a{
+    color:white;
 }
